@@ -1,0 +1,173 @@
+body {
+    font-size: 100%;
+    font-family: vazir !important;
+    font-weight: 400;
+    direction: rtl;
+}
+
+.alert-custom-danger {
+    color: $color8;
+}
+
+.alert-custom-success {
+    color: $color9;
+}
+
+.navbar-brand img {
+    width: 70px;
+    height: 60px;
+    border-radius: 3px;
+}
+
+.bg-navbar {
+    background-image: $linear4;
+    color: whitesmoke;
+}
+
+.carousel-item {
+    height: 60vh;
+
+    .carousel-caption h3 {
+        color: red;
+    }
+}
+
+.card .card-img-top {
+    height: 20vh;
+}
+
+.card .card-footer {
+    padding: 2px;
+    height: 2.7rem;
+
+    .data {
+        font-size: .7rem;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+.card {
+    .card-title {
+        font-size: 1.2rem;
+    }
+
+    .card-text {
+        font-size: .8rem;
+    }
+}
+
+.card .card-main {
+    height: 11rem;
+}
+
+.footer {
+    height: 15rem;
+    background-image: $linear2;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: $color4;
+    width: fit-content;
+}
+
+.social-media {
+    width: 12rem;
+    font-size: xx-large;
+    color: blueviolet;
+
+    a {
+        color: $color4;
+    }
+}
+
+.bi-twitter:hover {
+    color: blue;
+}
+
+.bi-telegram:hover {
+    color: blue;
+}
+
+.bi-instagram:hover {
+    color: red;
+}
+
+.about-style {
+    min-height: 20rem;
+
+    p {
+        text-align: justify;
+        font-size: .8rem;
+    }
+}
+
+p.titr {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+h2.title {
+    font-size: 1.2rem;
+}
+
+.gallery img {
+    height: 20rem;
+    width: 100%;
+}
+
+.container-gallery {
+    border: 3px dashed #b8b8d2;
+    padding: 2rem;
+}
+
+p {
+    text-align: justify;
+}
+
+
+.form-select option {
+    font-family: vazir;
+}
+
+.m-checkbox {
+    margin-right: 13.5rem;
+}
+
+.account-options-container {
+    height: 20rem;
+}
+
+.list-group-account {
+
+    padding-right: 0;
+
+    .list-item-account {
+        list-style: none;
+
+        a {
+            text-decoration: none;
+            color: $color3;
+            font-size: .9rem;
+        }
+    }
+}
+
+.admin-articles-link {
+    text-decoration: none;
+    color: $color1;
+}
+
+.table.table-striped {
+    font-size: .7rem;
+}
+
+.error{
+    min-height: 15rem;
+
+    p {
+        font-size: 2rem;
+        color: $color7;
+    }
+}
